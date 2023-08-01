@@ -37,7 +37,7 @@ roslaunch yolov5_ros yolov5.launch
 * Put your weights into `yolov5_ros/src/yolov5`
 * Put the yaml file for your dataset classes into `yolov5_ros/src/yolov5/data`
 * Change related ROS parameters in yolov5.launch: `weights`,  `data`
-* Put the detection_msgs Package in your workspace
+* Put the detection_msgs Package in your workspace\n
 'Label.msg' will be use for Real-time Detection Classification(data 1.Class 2.Accuracy)
 
 ## Reference
